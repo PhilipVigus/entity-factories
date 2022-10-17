@@ -5,7 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 public abstract class AbstractBaseEntityFactory<T> {
   protected final Class<T> entityClass;
 
-  public AbstractBaseEntityFactory(final Class<T> entityClass) {
+  protected AbstractBaseEntityFactory(final Class<T> entityClass) {
     this.entityClass = entityClass;
   }
 
